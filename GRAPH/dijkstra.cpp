@@ -3,9 +3,9 @@ using namespace std;
 const int n = 4;
 const int INF = 10000;
 #define MAX 10
-int S[n];
-int D[n];
-int C[n][n];
+int S[n + 1];
+int D[n + 1];
+int C[n + 1][n + 1];
 
 void dijkstra()
 {
